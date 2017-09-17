@@ -1,0 +1,12 @@
+<p>
+  chani is the best!
+</p>
+<div>
+ Hi my name is: {{chani}}
+ <br>
+  <br>
+
+<span>Likes: </span> {{likesCounter}}
+</div>
+<input [placeholder]="placeholder" type="text"  #InputValue>
+<button type="submit" (click)="like(InputValue.value)">I Like Chani</button>
